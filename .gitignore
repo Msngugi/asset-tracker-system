@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+
+# Logs
+logs/
+*.log
+
+# Local/vendor dependencies
+vendor/
+
+# Test files containing credentials or email configuration
+test_email_config.php
+test_mail.php
+test_password.php
+test_send_email.php
+
+# OS files
+.DS_Store
+Thumbs.db
